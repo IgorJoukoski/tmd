@@ -1,0 +1,190 @@
+.passw label i {
+    position: absolute; /* Para posicionar o ícone sobre o campo */
+    right: 20px; /* Ajuste a posição como preferir */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer; /* Adiciona um cursor pointer para indicar que é clicável */
+    color: white; /* Cor do ícone */
+}
+
+
+:root{
+    --cor-hover:#2f004e;
+    --cor-fundo-login: #101524;
+    --cor-texto: #5248DB;
+    --fonte-padrao: "Source Sans Pro", sans-serif;
+    --fonte-heading: "Rubik", sans-serif;
+    --cor-inpfundo: #101524;
+    --cor-botao: #489CDB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    font-family: var(--fonte-padrao);
+}
+
+span, h2, p{
+    color: var(--cor-texto);
+}
+
+aside{
+    flex: 1;
+    display: flex;
+}
+
+.left{
+    width: 150%;
+    position: relative;
+    background-color: #101524; 
+    flex-direction: column;
+    height: 100vh;
+}
+
+.right {
+    flex: 1;
+}
+
+.right > img{
+    width: auto;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher sem distorção */
+}
+
+#fundopreto {
+    height: 100%;
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+form{
+    position: relative;
+    display: block;
+    margin: 60px 20px;
+    line-height: 36px;
+    text-align: center;
+    padding: 12px;
+}
+
+form > img{
+    display: block;
+    margin: auto;
+    padding: 0;
+    vertical-align: baseline;
+    outline-color: #fff;
+    outline-offset: .2rem;
+}
+
+form > h2{
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 10px 0px;
+}
+
+img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline-color: #fff;
+    outline-offset: .2rem;
+}
+
+.email label, .passw label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: left;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+span{
+    margin-left: 40px;
+    letter-spacing: 1px;
+    font-family: "Rubik", sans-serif;
+}
+
+input{
+    color: white;
+    width: 80%;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+    margin: auto;
+    outline: none;
+    background-color: transparent;
+    justify-content: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+input:hover{
+    border: 2px solid var(--cor-hover);
+}
+
+input::placeholder{
+    color: white;
+}
+
+p{
+    text-align: center !important;
+    font-size: 1em;
+    font-family: var(--fonte-heading);
+    margin-top: 7px;
+}
+
+p > a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #948FDB;
+}
+
+input.button {
+    width: 80%;
+    padding: 12px;
+    background-color: var(--cor-botao);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+}
+
+input.button:hover{
+    background-color: #9434ba63;
+}
+
+ul{
+    display: flex;
+    margin: 10px;
+    padding: 0;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    font-family: "", sans-serif;
+    margin: auto;
+    list-style: none;
+}
