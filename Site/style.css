@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Berylium_Bd';
+    src: url('home/downloads/berylium.font'), format('truetype'); /* AQUI EU IMPORTEI UMA FONTE */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-de-fundo: #101524;
+    --cor-botao: rgb(128, 0, 128);
+    --cor-fundo-botao: #910187;
+}
+
+body{
+    height: 700px;
+    background-color: var(--cor-de-fundo);
+}
+
+
+header{
+    display: flex;
+}
+
+header span{
+    flex-grow: 1;
+    width: 50%;
+    font-family: "berylium", sans-serif;
+    font-size: 60px;
+    color: rgb(128, 0, 128);
+}
+
+header > a{
+    font-family: "berylium", sans-serif;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 22px;
+    background-color: var(--cor-botao);
+    text-align: left;
+    margin: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: var(--cor-fundo-botao);
+}
+
+main{
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+article{
+    text-align: center;
+}
+
+article strong{
+    color: var(--cor-botao);
+    font-size: 42px;
+}
+
+article p {
+    font-size: 18px;
+    margin-left: 3px;
+    margin-top: 7px;
+    text-align: justify;
+    color: white;
+}
+
+.sistempoint{
+    margin-top: 12px !important;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+ul ol{
+    margin-top: 26px;
+}
+
+#button-install{
+    font-size: 22px;
+    margin-top: 30px !important;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    background: linear-gradient(to bottom, #d1394e 50%, #cd2f46 50%);
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+footer{
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}

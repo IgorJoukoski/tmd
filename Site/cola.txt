@@ -1,0 +1,83 @@
+<div class="sx4gjyo sx4gjyoc0kx4--layout-spread sx4gjyodyorw--spacer-bottom">
+            <p class="sx7u0ys">Need an account? 
+                <a href="/signup/">Sign up</a>
+            </p>
+            <form class="sx1mn4n" method="post">
+                <div class="sxnmfaq">
+                    <img src="/_next/static/media/login@2x.85a679c5.png" alt="" width="250" height="125">
+                </div>
+                <h2 class="sxn0m2z sxn0m2z0o7ux--align-left">Log in to Parsec</h2>
+                <div class="sxa2jjx sxa2jjxjs1hy--width-standard"><div class="sxqq3rh">
+                    <label class="sxqq3rh">
+                        <span class="sxnqgym">Email</span>
+                        <div class="sx2v396">
+                            <input id="email" name="email" placeholder="ash@parsec.app" autofocus="" autocomplete="off" class="sx7yy1t" value="">
+                        </div>
+                    </label>
+                </div>
+                <div class="sxqq3rh">
+                    <label class="sxqq3rh">
+                        <span class="sxnqgym">Password</span>
+                        <div class="sx2v396">
+                            <div class="sx2v396 sx93a31">
+                                <input id="password" name="password" type="password" placeholder="************" autocomplete="off" class="sx7yy1t">
+                            </div>
+                            <button type="button" class="sxrabj9">Show</button>
+                        </div>
+                    </label>
+                </div>
+                <span class="sx9dzit">
+                    <a href="/forgot/">Forgot your password?</a>
+                </span>
+                <footer class="sxfx28k sxfx28k-0poog">
+                    <button class="sxvgc2m sxvgc2m3r6om--wide-true" id="submit_login_email_password">
+                        <span class="sxuou60">Log In</span>
+                    </button>
+                </footer>
+                <p class="sxja571">Teams user with SAML SSO? 
+                    <a href="/saml/login/">Log in here</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+
+    /_next/static/media/login@2x.85a679c5.png
+
+
+
+    <div class="sxa2jjx sxa2jjxjs1hy--width-standard">
+        <div class="sxqq3rh">
+            <label class="sxqq3rh">
+                <span class="sxnqgym">Email</span>
+                <div class="sx2v396">
+                    <input id="email" name="email" placeholder="ash@parsec.app" autofocus="" autocomplete="off" class="sx7yy1t" value=""></div></label>
+                </div>
+                <div class="sxqq3rh">
+                    <label class="sxqq3rh">
+                        <span class="sxnqgym">Password</span>
+                        <div class="sx2v396">
+                            <div class="sx2v396 sx93a31">
+                                <input id="password" name="password" type="password" placeholder="************" autocomplete="off" class="sx7yy1t"></div>
+                                <button type="button" class="sxrabj9">Show</button>
+                            </div>
+                        </label>
+                    </div>
+                    <span class="sx9dzit">
+                        <a href="/forgot/">Forgot your password?</a>
+                    </span>
+                    <footer class="sxfx28k sxfx28k-0poog">
+                        <button class="sxvgc2m sxvgc2m3r6om--wide-true" id="submit_login_email_password">
+                            <span class="sxuou60">Log In</span>
+                        </button>
+                    </footer><
+                    p class="sxja571">Teams user with SAML SSO?<a href="/saml/login/">Log in here</a>
+                </p>
+            </div>
+
+
+            .email label, .passw label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
